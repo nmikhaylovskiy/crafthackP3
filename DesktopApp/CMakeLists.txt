@@ -14,11 +14,15 @@ set(CMAKE_AUTOUIC_SEARCH_PATHS
 
 set(HEADERS
     include/mainwindow.h
+
+    include/ListItem.h
 )
 
 set(SOURCES
     source/main.cc
     source/mainwindow.cc
+
+    source/ListItem.cc
 )
 
 set(FORMS
