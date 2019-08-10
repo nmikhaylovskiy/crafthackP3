@@ -1,4 +1,6 @@
-*.swp # for files opened in editor
+*~
+*.swp
+*.swo
 
 __pycache__/
 
