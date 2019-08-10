@@ -1,3 +1,5 @@
+*.swp # for files opened in editor
+
 __pycache__/
 
 # python virtual environments
