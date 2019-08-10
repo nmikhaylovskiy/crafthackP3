@@ -37,7 +37,7 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
-           <widget class="QPushButton" name="pushButton_2">
+           <widget class="QPushButton" name="labBtn">
             <property name="text">
              <string>Ингрендиенты
 и
@@ -46,7 +46,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QPushButton" name="genBtn">
             <property name="text">
              <string>Создание 
 реквезита</string>
@@ -60,7 +60,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="QStackedWidget" name="pages">
       <property name="currentIndex">
        <number>1</number>
       </property>
@@ -189,7 +189,7 @@
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_7">
            <item>
-            <widget class="QLineEdit" name="lineEdit"/>
+            <widget class="QLineEdit" name="dirPathEntry"/>
            </item>
            <item alignment="Qt::AlignHCenter">
             <widget class="QWidget" name="widget_4" native="true">
@@ -201,14 +201,14 @@
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_4">
               <item>
-               <widget class="QPushButton" name="pushButton_9">
+               <widget class="QPushButton" name="dirChooseBtn">
                 <property name="text">
                  <string>Выбор каталога</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_10">
+               <widget class="QPushButton" name="createBtn">
                 <property name="text">
                  <string>Создать</string>
                 </property>
