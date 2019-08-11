@@ -16,6 +16,8 @@ set(HEADERS
     include/mainwindow.h
 
     include/ListItem.h
+    include/ListWidget.h
+    include/ImageWidget.h
 )
 
 set(SOURCES
@@ -23,10 +25,19 @@ set(SOURCES
     source/mainwindow.cc
 
     source/ListItem.cc
+    source/ListWidget.cc
+    source/ImageWidget.cc
 )
 
 set(FORMS
     gui/mainwindow.ui
+    gui/listitem.ui
+)
+
+set(RESOURCES
+    resources/fonts/fonts.qrc
+    resources/icons/icons.qrc
+    resources/styles/styles.qrc
 )
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
@@ -35,6 +46,7 @@ add_executable(AlchemyControlDesktop
     ${HEADERS}
     ${SOURCES}
     ${FORMS}
+    ${RESOURCES}
 )
 
 target_include_directories(AlchemyControlDesktop

@@ -1,0 +1,28 @@
+#ifndef LIST_WIDGET_H
+#define LIST_WIDGET_H
+
+#include "ListItem.h"
+
+#include <QWidget>
+#include <QScrollArea>
+#include <QList>
+
+class ListWidget : public QWidget
+{
+    Q_OBJECT;
+
+public:
+    explicit ListWidget(QWidget *parent = nullptr);
+    ~ListWidget();
+
+    int len();
+
+    bool appendItem(const ListItem *item);
+    bool removeItem(const ListItem *item);
+
+private:
+    QList<ListItem *> items;
+};
+
+#endif // LIST_WIDGET_H
+
