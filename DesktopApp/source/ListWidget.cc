@@ -42,3 +42,8 @@ bool ListWidget::removeItem(ListItem *item)
     return true;
 }
 
+const QList<ListItem *> ListWidget::getItems()
+{
+    return items;
+}
+

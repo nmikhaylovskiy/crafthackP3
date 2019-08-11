@@ -30,6 +30,9 @@ private:
 private slots:
     void setCurrentPage(int idx);
     void chooseDir();
+
+    void addIngredient();
+    void remIngredient();
 };
 
 #endif // MAINWINDOW_H_

@@ -21,6 +21,8 @@ public:
     bool appendItem(ListItem *item);
     bool removeItem(ListItem *item);
 
+    const QList<ListItem *> getItems();
+
 private:
     QList<ListItem *> items;
 

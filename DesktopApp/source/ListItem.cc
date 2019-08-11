@@ -40,3 +40,8 @@ void ListItem::showDescription()
     QMessageBox::information(this, ui->nameLabel->text(), this->description);
 }
 
+bool ListItem::isChecked()
+{
+    return ui->selectionBox->isChecked();
+}
+

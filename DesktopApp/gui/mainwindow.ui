@@ -103,21 +103,21 @@
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_2">
               <item>
-               <widget class="QPushButton" name="pushButton_3">
+               <widget class="QPushButton" name="addIngredientBtn">
                 <property name="text">
                  <string>Добавить</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_4">
+               <widget class="QPushButton" name="editIngredientBtn">
                 <property name="text">
                  <string>Изменить</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_5">
+               <widget class="QPushButton" name="deleteIngredientBtn">
                 <property name="text">
                  <string>Удалить</string>
                 </property>
